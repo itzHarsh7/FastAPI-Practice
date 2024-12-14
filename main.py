@@ -23,4 +23,4 @@ app.include_router(profile.router, prefix="/profile", tags=["Profile"])
 
 @app.get('/')
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Hello World... This is my Fast Api Application Practice..."}
